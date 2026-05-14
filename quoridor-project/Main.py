@@ -5,6 +5,10 @@ from game.board import board , player_walls, walls
 from game.ai import choose_ai_action
 import os
 
+#This game was developed by Ain Shams University students as a project for the course "Artificial Intelligence 1" in the Spring semester of 2026
+#The game is based on the board game "Quoridor" and 
+# includes both player vs player and player vs AI modes, 
+# with three difficulty levels for the AI. We hope you enjoy playing it as much as we enjoyed creating it!
 
 
 pygame.init()

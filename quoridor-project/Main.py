@@ -14,9 +14,9 @@ import os
 pygame.init()
 pygame.mixer.init()
 
-sound_path = os.path.join("quoridor-project", "Assets", "win.mp3")
+#sound_path = os.path.join( "Assets", "win.mp3")
 
-pygame.mixer.music.load(sound_path)
+#pygame.mixer.music.load(sound_path)
 
 # Set up the display
 WIDTH, HEIGHT = 1000, 820
@@ -149,7 +149,7 @@ def apply_win(player):
     selected_wall_orientation = None
     winner = player
     game_over = True
-    pygame.mixer.music.play(start=30)
+    #pygame.mixer.music.play(start=30)
 
 
 def perform_ai_turn():
